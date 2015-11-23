@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @ruiz.Cliente %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @ruiz.Direccion %>
+</p>
+
+<p>
+  <strong>Totalfactura:</strong>
+  <%= @ruiz.TotalFactura %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @ruiz.Fecha %>
+</p>
+
+<%= link_to 'Edit', edit_ruiz_path(@ruiz) %> |
+<%= link_to 'Back', ruizs_path %>

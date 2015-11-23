@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Cliente: MyString
+  Direccion: MyString
+  TotalFactura: 1
+  Fecha: 2015-11-17 16:15:51
+
+two:
+  Cliente: MyString
+  Direccion: MyString
+  TotalFactura: 1
+  Fecha: 2015-11-17 16:15:51

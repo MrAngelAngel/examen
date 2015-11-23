@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @angel.Nombre %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @angel.Cantidad %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @angel.Precio %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @angel.Fecha %>
+</p>
+
+<p>
+  <strong>Credito:</strong>
+  <%= @angel.Credito %>
+</p>
+
+<%= link_to 'Edit', edit_angel_path(@angel) %> |
+<%= link_to 'Back', angels_path %>
